@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 29rem;
+    height: 20rem;
+    margin: 34px;
+    transition: all 0.4s ease-in; 
+    
+}
+.card :hover{
+    transform: scale(1.06);
+    transition: all 0.4s ease-in; 
+}
+
+.card_image{
+    background-image: url('https://assets.sentinelassam.com/h-upload/2020/11/18/174149-msd.webp?w=400&dpr=2.6');
+    height: 17rem;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.title{
+    margin-top: 7rem;
+    font-size: 5rem;
+    border-bottom: 10px solid #FF008C;
+    text-align: center;
+    width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+    height: fit-content;
+    background: black;
+    opacity: 0.9;
+    padding: 50px 12vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.connect{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 5px;   
+}
+
+.socials{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta:hover{
+    color: #CB3A8E;
+}
+
+.fb:hover{
+    color: #1773EA;
+}
+
+.linkedin:hover{
+    color: #0073B1;
+}
+
+.mail:hover{
+    color: #E34133;
+}

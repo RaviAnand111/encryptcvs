@@ -1,0 +1,142 @@
+.main{
+  padding: 12vh 12vw;
+}
+
+.departments{
+  text-align: center;
+    font-size: 2em;
+    width: fit-content;
+    border-bottom: 3px solid #FF008C;
+    font-family: Playfair Display;
+    margin: 0 auto;
+    margin-top: 7em;
+}
+
+.main_content p{
+ margin: 0;
+ color: white;
+}
+
+.main_content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 10vh 2px 20vh 2px;
+}
+
+.we{
+ font-size: 60px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+ color: green;  
+}
+
+.enc_box{ 
+ background-image: url("../public/pinky-bg.png");
+ transform: scale(0.8);
+ width: 850px;
+ height: 289px;
+ margin-left: 30px;
+}
+
+.encrypt{
+ font-size: 220px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+ width: 680px;
+ height: 10px;
+ 
+}
+
+.content{
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.arrow_div{
+  width: 70px;
+  height: 70px;
+  background-color: #F3138D ;
+  border-radius: 50%;
+  margin-top: 80px;
+  animation: animateDown infinite 1.5s;
+}
+
+.arrow{
+  color: white;
+  transform: scale(1.5);
+  margin-top: 20px;
+}
+
+@keyframes animateDown{
+  40% {
+    transform: translateY(32px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+
+  
+.main_content p{
+ margin: 0;
+ color: white;
+}
+
+.main_content{
+ display: flex;
+ flex-direction: column;
+ padding: 2vh 5px 20vh 5px;
+ overflow: none;
+ margin: 0 15px;
+}
+
+.we{
+ font-size: 25px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+ position: relative;
+ top: -0.5em;
+}
+
+.enc_box{ 
+ background-image: url("../public/pinky-bg.png");
+ width: 800px;
+ height: 300px;
+ background-repeat: no-repeat;  
+ transform: scale(0.4) translate(0, -50%);
+}
+
+.encrypt{
+ font-size: 200px;
+ font-family: 'WC Mano Negra Bta', sans-serif;
+ height: 300px;
+ width: 700px;
+}
+
+.content{
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
+  transform: translate(0, -8em);
+}
+
+.arrow_div{
+  margin-top: -30%;
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+  background-color: #F3138D;
+  border-radius: 50%;
+}
+
+.arrow{
+  color: white;
+  transform: scale(1.3);
+  margin: 20px 0;
+}
+
+
+}

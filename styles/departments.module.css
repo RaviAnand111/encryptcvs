@@ -1,0 +1,64 @@
+.container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  transition: all 0.4s ease-in;
+  color: #ff008c;
+  background-color: black;
+  margin: 10px 20px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 500;
+  box-shadow: 0 0 #ff008c;
+  transition: 0.5s;
+  padding: 20px;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.card:hover {
+  box-shadow: -5px 5px #ff008c;
+  transform: translate(5px, -5px);
+}
+
+/* .card_image{
+    background-color: #ff008c;
+    height: 5rem;
+    background-size: cover;
+    border-radius: 10px;
+} */
+
+.dept {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+}
+
+
+@media  screen and (max-width: 480px) {
+  
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+  .card:hover{
+    background-image: url('/game-1.jpg');
+  }
+
+}
