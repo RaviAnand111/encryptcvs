@@ -1,5 +1,12 @@
 @import url('http://fonts.cdnfonts.com/css/wc-mano-negra-bta');
 
+@font-face {
+  font-family: 'WC Mano Negra Bta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('WC Mano Negra Bta'), url('https://fonts.cdnfonts.com/s/9824/WCManoNegraBta.woff') format('woff');
+}
+
 .main{
   padding: 12vh 12vw;
 }
@@ -35,7 +42,7 @@
 }
 
 .enc_box{ 
- background-image: url("../public/pinky-bg.png");
+ background-image: url("/pinky-bg.png");
  transform: scale(0.8);
  width: 850px;
  height: 289px;
