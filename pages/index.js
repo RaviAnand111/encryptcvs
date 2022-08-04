@@ -36,7 +36,7 @@ export default function Home() {
         ></script>
       </Head>
 
-      {/* <Particles
+      <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -150,7 +150,7 @@ export default function Home() {
             },
             retina_detect: true,
           }}
-        ></Particles> */}
+        ></Particles>
 
       <Navbar />
 
