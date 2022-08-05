@@ -21,7 +21,6 @@ export default function Home() {
   const particlesInit = (main) => {
     console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
@@ -160,7 +159,7 @@ export default function Home() {
         }}
       ></Particles>
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className={styles.main} ref={homeRef}>
         <div className={styles.main_content}>

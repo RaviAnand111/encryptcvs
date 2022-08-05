@@ -22,6 +22,11 @@
   text-decoration: underline;
 }
 
+.executive_contact{
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+
 .menu{
   font-size: 18px;
 }

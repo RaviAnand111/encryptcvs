@@ -11,6 +11,11 @@ function Events({ eventsRef }) {
           <Card content="Codotsav" />
           <Card content="Technex" />
         </div>
+        <div className={styles.events_table}>
+          <p>Technophilia</p>
+          <p>Codotsav</p>
+          <p>Technex</p>
+        </div>
       </div>
 
       <h2 className={styles.games}>GAMES</h2>
