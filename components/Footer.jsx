@@ -16,7 +16,7 @@ function Footer({
       {/* Address Part */}
       <div className={styles.address}>
         <p>+91 1234567891</p>
-        <p> Kriti Arora (<i>President</i>)</p>
+        <p> Kriti Khanna (<i>President</i>)</p>
         <p>
           <Link href="mailto: encryptcvs@gmail.com">
           <a target="_blank">encryptcvs@gmail.com</a>
