@@ -1,8 +1,8 @@
 import styles from "../styles/events.module.css";
 
-function Events() {
+function Events({eventsRef}) {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} ref={eventsRef}>
             <h2 className={styles.events}>Events</h2>
             <h2 className={styles.games}>GAMES</h2>
 

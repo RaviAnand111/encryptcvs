@@ -9,7 +9,17 @@ import Events from "../components/Events";
 import Particles from "react-tsparticles";
 import Departments from "../components/Departments";
 import Footer from "../components/Footer";
+import { useRef } from "react";
+
+
 export default function Home() {
+
+  const homeRef = useRef(null);
+  const aboutusRef = useRef(null);
+  const missionRef = useRef(null);
+  const departmentsRef = useRef(null);
+  const eventsRef = useRef(null);
+
   const particlesInit = (main) => {
     console.log(main);
 
@@ -154,7 +164,7 @@ export default function Home() {
 
       <Navbar />
 
-      <div className={styles.main}>
+      <div className={styles.main} ref={homeRef}>
         <div className={styles.main_content}>
           <p className={styles.we}> We are </p>
           <div className={styles.enc_box}>
@@ -169,12 +179,12 @@ export default function Home() {
           </div>
         </div>
 
-        <AboutEncrypt />
-        <Events />
+        <AboutEncrypt aboutusRef={aboutusRef} missionRef={missionRef}/>
+        <Events eventsRef={eventsRef}/>
         <p className={styles.departments}>DEPARTMENTS</p>
-        <Departments />
+        <Departments departmentsRef={departmentsRef}/>
       </div>
-      <Footer />
+      <Footer homeRef={homeRef} aboutusRef={aboutusRef} missionRef={missionRef} eventsRef={eventsRef} departmentsRef={departmentsRef}/>
     </>
   );
 }

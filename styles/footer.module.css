@@ -1,44 +1,98 @@
-.banner{
-    width: 100%;
-    height: fit-content;
-    background: black;
-    opacity: 0.9;
-    padding: 50px 12vw;
-    display: flex;
-    justify-content: space-around;
+.banner {
+  width: 100%;
+  height: fit-content;
+  background: black;
+  opacity: 0.9;
+  padding: 50px 12vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.address p{
+  font-size: 18px;
 }
 
-.connect{
-    font-size:40px;
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-left: 5px;   
+.address p i{
+  font-size: 16px;
 }
 
-.socials{
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
+.address p a:hover{
+  color: white;
+  text-decoration: underline;
 }
 
-.insta:hover{
-    color: #CB3A8E;
+.menu{
+  font-size: 18px;
 }
 
-.fb:hover{
-    color: #1773EA;
+.menu p:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.linkedin:hover{
-    color: #0073B1;
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.mail:hover{
-    color: #E34133;
+.connect {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.insta:hover {
+  color: #cb3a8e;
+}
+
+.fb:hover {
+  color: #1773ea;
+}
+
+.linkedin:hover {
+  color: #0073b1;
+}
+
+.mail:hover {
+  color: #e34133;
+}
+
+
+@media only screen and (max-width: 550px){
+    .banner{
+        flex-direction: column;
+    }
+
+    .connect {
+        font-size: 30px;
+    }
+
+    .insta, .fb, .linkedin, .mail {
+        transform: scale(0.8);
+    }
+
+    .socials{
+        width: 100%;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address, .menu, .contract{
+      margin: 20px 0;
+    }
 }
