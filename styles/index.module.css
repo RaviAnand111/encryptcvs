@@ -112,7 +112,7 @@
 }
 
 .enc_box{ 
- background-image: url("../public/pinky-bg.png");
+ background-image: url("/pinky-bg.png");
  width: 800px;
  height: 300px;
  background-repeat: no-repeat;  
