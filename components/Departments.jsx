@@ -13,6 +13,7 @@ const Departments = ({ departmentsRef }) => {
           <Card content="Design and Technology" />
           <Card content="Marketing" />
           <Card content="Social Media" />
+          <div></div>
           <Card content="Content" />
         </div>
 

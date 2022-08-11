@@ -88,7 +88,7 @@
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 640px){
 
   
 .main_content p{
@@ -147,5 +147,11 @@
   margin: 20px 0;
 }
 
+
+}
+
+@media only screen and (min-width: 1008px){
+
+  
 
 }

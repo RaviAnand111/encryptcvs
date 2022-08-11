@@ -1,7 +1,7 @@
 
 .card {
-    width: 300px;
-    height: 350px;
+    width: 20rem;
+    height: 22rem;
     transition: all 0.4s ease-in;
     color: #ff008c;
     background-color: black;
@@ -44,7 +44,7 @@
     margin-top: 0.6rem;
   }
   
-  @media  screen and (max-width: 550px) {
+  @media  screen and (max-width: 640px) {
   
     .card:hover{
       background-image: url('/game-1.jpg');

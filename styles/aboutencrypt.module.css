@@ -21,6 +21,14 @@
   letter-spacing: 3%;
 }
 
+.mission_content {
+  color: white;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  line-height: 45px;
+  letter-spacing: 3%;
+}
+
 .e {
   font-size: 7rem;
   font-family: "WC Mano Negra Bta", sans-serif;
@@ -47,7 +55,7 @@
   color: #ff008c;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   .heading {
     font-size: 25px;
     width: fit-content;
@@ -64,6 +72,7 @@
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.7px;
+    font-family: "Playfair Display";
   }
 
   .parent {

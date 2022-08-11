@@ -1,3 +1,8 @@
+
+.container{
+  font-family: "Playfair Display";
+}
+
 .department_heading{
   text-align: center;
     font-size: 2.5rem;
@@ -19,7 +24,7 @@
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .departments {
     display: block;
   }
@@ -62,5 +67,15 @@
     font-size: 20px;
     font-weight:500;
     letter-spacing: 0.2px;
+  }
+}
+
+@media only screen and (min-width: 1008px){
+  .departments_cards {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+    justify-content: center;
   }
 }
