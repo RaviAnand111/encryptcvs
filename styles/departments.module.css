@@ -4,12 +4,12 @@
 }
 
 .department_heading{
-  text-align: center;
+    text-align: center;
     font-size: 2.5rem;
     width: fit-content;
     border-bottom: 3px solid #FF008C;
     font-family: Playfair Display;
-    margin: 10rem auto;
+    margin: 2rem auto;
 }
 
 .departments_cards {
@@ -41,7 +41,7 @@
       width: fit-content;
       border-bottom: 3px solid #FF008C;
       font-family: Playfair Display;
-      margin-top: 100px;
+      margin-top: 10px;
       margin-bottom: 50px;
   }
 
