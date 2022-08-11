@@ -43,8 +43,8 @@ function Events({ eventsRef }) {
       <div className={styles.box}>
         <div className={styles.contentchild}>
           <ul>
-            <li>MICROSOFT AZURE WEBINAR</li>
-            <li>ROADMAP TO BECOME A DATA SCIENTIST</li>
+            <li>Microsoft Azure</li>
+            <li>How to be a Data Scientist</li>
           </ul>
         </div>
         <div className={styles.imgchild}>
@@ -57,8 +57,8 @@ function Events({ eventsRef }) {
       <div className={styles.box}>
         <div className={styles.contentchild}>
           <ul>
-            <li>COMPETITIVE PROGRAMMING</li>
-            <li>BLIND CODING</li>
+            <li>Competitive Programming</li>
+            <li>Blind Coding</li>
           </ul>
         </div>
 
