@@ -10,6 +10,7 @@ import Particles from "react-tsparticles";
 import Departments from "../components/Departments";
 import Footer from "../components/Footer";
 import { useRef } from "react";
+import BrandCarousel from "../components/BrandCarousel";
 
 export default function Home() {
   const homeRef = useRef(null);
@@ -178,7 +179,7 @@ export default function Home() {
 
         <AboutEncrypt aboutusRef={aboutusRef} missionRef={missionRef} />
         <Events eventsRef={eventsRef} />
-
+        <BrandCarousel />
         <Departments departmentsRef={departmentsRef} />
       </div>
       <Footer

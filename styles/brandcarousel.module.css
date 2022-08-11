@@ -1,0 +1,18 @@
+.container{
+    /* width: 100vw;
+    height: 500px; */
+    margin: 300px 0;
+}
+
+.cn{
+    background-color: white;
+}
+.heading{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    width: fit-content;
+    border-bottom: 3px solid #ff008c;
+}

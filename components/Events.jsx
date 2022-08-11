@@ -26,6 +26,7 @@ function Events({ eventsRef }) {
             <li>FIFA’19</li>
             <li>PUBG</li>
             <li>Battlegrounds Mobile India</li>
+            <li>Call of Duty Mobile</li>
             <li>Counter Strike</li>
             <li>Debate Battle</li>
             <li>Geek Hunt</li>
@@ -43,6 +44,8 @@ function Events({ eventsRef }) {
       <div className={styles.box}>
         <div className={styles.contentchild}>
           <ul>
+            <li>DSA for your Dream Company</li>
+            <li>Blockchain & NFT</li>
             <li>Microsoft Azure</li>
             <li>How to be a Data Scientist</li>
           </ul>
