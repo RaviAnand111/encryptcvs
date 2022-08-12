@@ -28,7 +28,7 @@
 
 .parent {
   width: 100vh;
-  height: 400px;
+  height: fit-content;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;

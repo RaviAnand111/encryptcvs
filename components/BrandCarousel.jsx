@@ -13,12 +13,13 @@ function BrandCarousel() {
         infiniteLoop={true}
         showIndicators={false}
         showStatus={false}
+        fade={true}
       >
-        <div className={styles.gfg}>
-          <Image src="/gfg.png" width="600" height="300" />
+        <div>
+          <Image src="/gfg.png" width="300" height="300" />
         </div>
-        <div className={styles.cn}>
-          <Image src="/coding_ninjas.png" width="600" height="300" />
+        <div>
+          <Image src="/coding_ninjas.png" width="300" height="300" />
         </div>
         <div>
           <Image src="/competitor_gen.png" width="400" height="400" />
@@ -27,7 +28,7 @@ function BrandCarousel() {
           <Image src="/du_beat.png" width="300" height="300" />
         </div>
         <div>
-          <Image src="/du_club.jpg" width="300" height="300" />
+          <Image src="/du_club.png" width="300" height="300" />
         </div>
         <div>
           <Image src="/du_express.png" width="300" height="300" />
