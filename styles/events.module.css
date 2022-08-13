@@ -130,7 +130,7 @@
 .codingEvents {
   padding-bottom: 10px;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1040px) {
   .all_events {
     display: flex;
     flex-direction: column;
@@ -222,7 +222,7 @@
   }
 }
 
-@media only screen and (min-width: 1008px) {
+@media only screen and (max-width: 1320px) {
   .all_events {
     display: flex;
     flex-direction: column;

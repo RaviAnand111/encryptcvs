@@ -13,7 +13,7 @@ function BrandCarousel() {
         infiniteLoop={true}
         showIndicators={false}
         showStatus={false}
-        interval={1000}
+        interval={2000}
       >
         <div>
           <Image src="/gfg.png" width="300" height="300" />

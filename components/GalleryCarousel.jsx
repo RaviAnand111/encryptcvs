@@ -17,7 +17,7 @@ function GalleryCarousel() {
         infiniteLoop={true}
         showIndicators={false}
         showStatus={false}
-        interval={1000}
+        interval={2000}
       >
         {src_arr.map((src, index) => (
           <div key={index}>
