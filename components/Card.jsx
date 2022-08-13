@@ -1,12 +1,12 @@
 import styles from "../styles/cards.module.css";
 
-const Card = (props) => {
+const Card = ({content}) => {
 
 
  return (
   <>
    <div className={styles.card}>
-   <h2  className={styles.dept}>{props.content}</h2>
+   <h2  className={styles.dept}>{content}</h2>
   </div>
   </>
  )

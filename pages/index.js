@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Navbar from "../components/Navbar";
-import Members from "../components/Members";
 import styles from "../styles/index.module.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import AboutEncrypt from "../components/AboutEncrypt";
@@ -11,6 +8,7 @@ import Departments from "../components/Departments";
 import Footer from "../components/Footer";
 import { useRef } from "react";
 import BrandCarousel from "../components/BrandCarousel";
+import GalleryCarousel from "../components/GalleryCarousel";
 
 export default function Home() {
   const homeRef = useRef(null);
@@ -21,11 +19,10 @@ export default function Home() {
 
   const particlesInit = (main) => {
     console.log(main);
-
   };
 
   const particlesLoaded = (container) => {
-    // console.log(container);
+    console.log(container);
   };
 
   return (
@@ -160,8 +157,6 @@ export default function Home() {
         }}
       ></Particles>
 
-      {/* <Navbar /> */}
-
       <div className={styles.main} ref={homeRef}>
         <div className={styles.main_content}>
           <p className={styles.we}> We are </p>
@@ -181,6 +176,7 @@ export default function Home() {
         <Events eventsRef={eventsRef} />
         <BrandCarousel />
         <Departments departmentsRef={departmentsRef} />
+        <GalleryCarousel />
       </div>
       <Footer
         homeRef={homeRef}

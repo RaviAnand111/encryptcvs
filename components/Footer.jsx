@@ -16,12 +16,15 @@ function Footer({
       {/* Address Part */}
       <div className={styles.address}>
         <div className={styles.executive_contact}>
-        <p>+91 1234567891</p>
-        <p> Kriti Khanna (<i>President</i>)</p>
+          <p>+91 1234567891</p>
+          <p>
+            {" "}
+            Kriti Khanna (<i>President</i>)
+          </p>
         </div>
         <p>
           <Link href="mailto: encryptcvs@gmail.com">
-          <a target="_blank">encryptcvs@gmail.com</a>
+            <a target="_blank">encryptcvs@gmail.com</a>
           </Link>
         </p>
         <p> College of Vocational Studies </p>

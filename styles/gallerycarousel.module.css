@@ -1,0 +1,28 @@
+.container{
+    margin: 200px 0;
+}
+.heading{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    width: fit-content;
+    border-bottom: 3px solid #ff008c;
+}
+
+.img{
+    border-radius: 10px;
+}
+
+.img:hover {
+    box-shadow: -5px 5px #ff008c;
+    transform: translate(5px, -5px);
+  }
+
+@media only screen and (max-width: 640px){
+    .heading{
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+}

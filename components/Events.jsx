@@ -17,7 +17,8 @@ function Events({ eventsRef }) {
           <p>Technex</p>
         </div>
       </div>
-
+    <div className={styles.all_events}>
+      <div className={styles.games_container}>
       <h2 className={styles.games}>GAMES</h2>
 
       <div className={styles.box}>
@@ -33,12 +34,13 @@ function Events({ eventsRef }) {
             <li>Comic Concert</li>
           </ul>
         </div>
-
-        <div className={styles.imgchild}>
+      </div>
+        {/* <div className={styles.imgchild}>
           <img src="game-1.jpg" alt="game" className={styles.img1}></img>
           <img src="game-2.jpg" alt="game" className={styles.img2}></img>
-        </div>
+        </div> */}
       </div>
+      <div className={styles.webinar_container}>
       <h2 className={styles.webinar}>WEBINAR</h2>
 
       <div className={styles.box}>
@@ -50,11 +52,13 @@ function Events({ eventsRef }) {
             <li>How to be a Data Scientist</li>
           </ul>
         </div>
-        <div className={styles.imgchild}>
+        {/* <div className={styles.imgchild}>
           <img src="/webinar_1.jpg" alt="game" className={styles.img1}></img>
           <img src="/webinar_2.jpg" alt="game" className={styles.img2}></img>
-        </div>
+        </div> */}
       </div>
+      </div>
+      <div className={styles.coding_container}>
       <h2 className={styles.codingEvents}>CODING EVENTS</h2>
 
       <div className={styles.box}>
@@ -65,12 +69,14 @@ function Events({ eventsRef }) {
           </ul>
         </div>
 
-        <div className={styles.imgchild}>
+        {/* <div className={styles.imgchild}>
           <img src="/coding_1.jpg" alt="game" className={styles.img1}></img>
           <img src="/coding_2.jpg" alt="game" className={styles.img2}></img>
-        </div>
+        </div> */}
+      </div>
       </div>
       {/* <h2 className={styles.muchMore}>AND MUCH MORE...</h2> */}
+      </div>
     </div>
   );
 }
