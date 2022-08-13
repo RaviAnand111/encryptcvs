@@ -18,6 +18,8 @@ function GalleryCarousel() {
         showIndicators={false}
         showStatus={false}
         interval={2000}
+        loading="eager"
+        priority={true}
       >
         {src_arr.map((src, index) => (
           <div key={index}>

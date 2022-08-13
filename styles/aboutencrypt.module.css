@@ -65,23 +65,13 @@
     letter-spacing: 0.7px;
     font-family: "Playfair Display", sans-serif;
   }
-
-  /* .parent {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
   
-  .child {
-    height: 100px;
-    width: 50px;
-    color: #ff008c;
-    transform: scale(0.2)
-  } */
+  .parent{
+    display: none;
+  }
+}
 
+@media only screen and (max-width: 1008px){
   .parent{
     display: none;
   }
