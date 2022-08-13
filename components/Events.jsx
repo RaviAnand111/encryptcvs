@@ -17,65 +17,51 @@ function Events({ eventsRef }) {
           <p>Technex</p>
         </div>
       </div>
-    <div className={styles.all_events}>
-      <div className={styles.games_container}>
-      <h2 className={styles.games}>GAMES</h2>
+      <div className={styles.all_events}>
+        <div className={styles.games_container}>
+          <h2 className={styles.games}>GAMES</h2>
 
-      <div className={styles.box}>
-        <div className={styles.contentchild}>
-          <ul>
-            <li>FIFA’19</li>
-            <li>PUBG</li>
-            <li>Battlegrounds Mobile India</li>
-            <li>Call of Duty Mobile</li>
-            <li>Counter Strike</li>
-            <li>Debate Battle</li>
-            <li>Geek Hunt</li>
-            <li>Comic Concert</li>
-          </ul>
+          <div className={styles.box}>
+            <div className={styles.contentchild}>
+              <ul>
+                <li>FIFA’19</li>
+                <li>PUBG</li>
+                <li>Battlegrounds Mobile India</li>
+                <li>Call of Duty Mobile</li>
+                <li>Counter Strike</li>
+                <li>Debate Battle</li>
+                <li>Geek Hunt</li>
+                <li>Comic Concert</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-        {/* <div className={styles.imgchild}>
-          <img src="game-1.jpg" alt="game" className={styles.img1}></img>
-          <img src="game-2.jpg" alt="game" className={styles.img2}></img>
-        </div> */}
-      </div>
-      <div className={styles.webinar_container}>
-      <h2 className={styles.webinar}>WEBINAR</h2>
+        <div className={styles.webinar_container}>
+          <h2 className={styles.webinar}>WEBINAR</h2>
 
-      <div className={styles.box}>
-        <div className={styles.contentchild}>
-          <ul>
-            <li>DSA for your Dream Company</li>
-            <li>Blockchain & NFT</li>
-            <li>Microsoft Azure</li>
-            <li>How to be a Data Scientist</li>
-          </ul>
+          <div className={styles.box}>
+            <div className={styles.contentchild}>
+              <ul>
+                <li>DSA for your Dream Company</li>
+                <li>Blockchain & NFT</li>
+                <li>Microsoft Azure</li>
+                <li>How to be a Data Scientist</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        {/* <div className={styles.imgchild}>
-          <img src="/webinar_1.jpg" alt="game" className={styles.img1}></img>
-          <img src="/webinar_2.jpg" alt="game" className={styles.img2}></img>
-        </div> */}
-      </div>
-      </div>
-      <div className={styles.coding_container}>
-      <h2 className={styles.codingEvents}>CODING EVENTS</h2>
+        <div className={styles.coding_container}>
+          <h2 className={styles.codingEvents}>CODING EVENTS</h2>
 
-      <div className={styles.box}>
-        <div className={styles.contentchild}>
-          <ul>
-            <li>Competitive Programming</li>
-            <li>Blind Coding</li>
-          </ul>
+          <div className={styles.box}>
+            <div className={styles.contentchild}>
+              <ul>
+                <li>Competitive Programming</li>
+                <li>Blind Coding</li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-        {/* <div className={styles.imgchild}>
-          <img src="/coding_1.jpg" alt="game" className={styles.img1}></img>
-          <img src="/coding_2.jpg" alt="game" className={styles.img2}></img>
-        </div> */}
-      </div>
-      </div>
-      {/* <h2 className={styles.muchMore}>AND MUCH MORE...</h2> */}
       </div>
     </div>
   );

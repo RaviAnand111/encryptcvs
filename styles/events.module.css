@@ -2,12 +2,14 @@
   color: white;
 }
 
-.all_events{
+.all_events {
   display: flex;
   justify-content: space-evenly;
 }
 
-.games_container, .webinar_container, .coding_container{
+.games_container,
+.webinar_container,
+.coding_container {
   display: flex;
   flex-direction: column;
 }
@@ -22,25 +24,19 @@
   margin-bottom: 10rem;
   padding-bottom: 10px;
 }
-/* .eventpara{
-    font-size: 28px;
-    text-align: center;
-    font-family: Playfair Display;
-    margin: 50px;
-} */
 
-.events_container{
+.events_container {
   display: flex;
   flex-direction: column;
 }
 
-.events_card_container{
+.events_card_container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.events_table{
+.events_table {
   display: none;
 }
 
@@ -51,7 +47,7 @@
   border-bottom: 3px solid #ff008c;
   font-family: Playfair Display;
   /* margin-bottom: 5rem; */
-  margin:10rem auto;
+  margin: 10rem auto;
 }
 .webinar {
   text-align: center;
@@ -73,7 +69,7 @@
   font-style: normal;
   /* margin-bottom: 2.5rem;
   margin-top: 3rem; */
-  margin:10rem auto;
+  margin: 10rem auto;
 }
 .box {
   display: flex;
@@ -94,9 +90,9 @@
 .contentchild ul {
   list-style-type: none;
 }
-.img1{
+.img1 {
   width: 450px;
-  margin-left: 50px;  
+  margin-left: 50px;
   border-radius: 10px;
 }
 
@@ -111,12 +107,12 @@
   position: absolute;
 }
 
-.img1:hover{
+.img1:hover {
   transform: translateX(-40px);
   transition: transform 0.8s ease;
 }
 
-.img1:hover + .img2{
+.img1:hover + .img2 {
   transform: translateX(-110px) translateY(20px);
   /* transition: all 0.5s 0.6s; */
   transition: transform 0.8s ease;
@@ -126,24 +122,25 @@
   text-align: center;
   font-size: 2rem;
   font-family: Playfair Display;
-  color: #ff1b98; 
+  color: #ff1b98;
 }
 
-.games, .webinar, .codingEvents{
+.games,
+.webinar,
+.codingEvents {
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 640px) {
-  
-  .all_events{
+  .all_events {
     display: flex;
     flex-direction: column;
   }
 
-  .events_card_container{
+  .events_card_container {
     display: none;
   }
 
-  .events_table{
+  .events_table {
     display: block;
   }
 
@@ -165,16 +162,18 @@
     justify-content: center;
     padding: 10px;
     font-size: 20px;
-    font-weight:500;
+    font-weight: 500;
     letter-spacing: 0.2px;
     font-family: "Playfair Display", sans-serif;
   }
-  
+
   .imgchild {
     display: none;
   }
 
-  .codingEvents, .webinar, .games{
+  .codingEvents,
+  .webinar,
+  .games {
     font-size: 25px;
     margin: 0;
     width: 0;
@@ -184,14 +183,14 @@
     padding-bottom: 3px;
   }
 
-  .contentchild{
+  .contentchild {
     font-size: 17px;
     font-family: "Playfair Display", sans-serif;
     line-height: 30px;
     letter-spacing: 0.2px;
   }
 
-  .events{
+  .events {
     font-size: 30px;
     width: fit-content;
     border-bottom: 3px solid #ff008c;
@@ -209,47 +208,23 @@
     margin: 50px 0 0 0;
   }
 
-  .games, .webinar, .codingEvents{
+  .games,
+  .webinar,
+  .codingEvents {
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    font-size:28px;
+    font-size: 28px;
     width: fit-content;
     padding-bottom: 5px;
   }
-
 }
 
-/* @media only screen and (min-width:1008px){
-  .box {
+@media only screen and (min-width: 1008px) {
+  .all_events {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
-
-  .imgchild{
-    width: 100%;
-    height: auto;
-    margin: 50px 0;
-  }
-
-  .img1{
-    width: 450px;
-    border-radius: 10px;
-  }
-  
-  .img2 {
-    width: 450px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px rgb(214, 212, 212);
-  }
-
-  .events_card_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  
-} */
+}
