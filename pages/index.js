@@ -18,11 +18,11 @@ export default function Home() {
   const eventsRef = useRef(null);
 
   const particlesInit = (main) => {
-    console.log(main);
+    // console.log(main);
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   return (

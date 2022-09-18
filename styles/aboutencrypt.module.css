@@ -10,7 +10,7 @@
   height: 60px;
   width: 200px;
   border-bottom: 3px solid #ff008c;
-  font-family: "Playfair Display"
+  font-family: "Playfair Display";
 }
 
 .content {
@@ -43,7 +43,7 @@
   margin: 100px auto;
   width: 27rem;
   color: #ff008c;
-  transform: scale(0.4)
+  transform: scale(0.4);
 }
 
 @media only screen and (max-width: 640px) {
@@ -65,14 +65,29 @@
     letter-spacing: 0.7px;
     font-family: "Playfair Display", sans-serif;
   }
-  
-  .parent{
+
+  .parent {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1008px){
-  .parent{
+@media only screen and (min-width: 642px) and (max-width: 1008px){
+
+  .heading{
+    font-size: 23px;
+  }
+
+  .content {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    font-family: "Playfair Display", sans-serif;
+  }
+
+}
+
+@media only screen and (max-width: 1008px) {
+  .parent {
     display: none;
   }
 }
