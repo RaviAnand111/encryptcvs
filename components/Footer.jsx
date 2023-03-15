@@ -16,7 +16,7 @@ function Footer({
       {/* Address Part */}
       <div className={styles.address}>
         <div className={styles.executive_contact}>
-          <p>+91 1234567891</p>
+          <p className={styles.number}>+91 1234567891</p>
           <p>
             {" "}
             Kriti Khanna (<i>President</i>)

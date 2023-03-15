@@ -1,6 +1,10 @@
 /* .container{
 } */
 
+.mission {
+  margin-top: 10rem;
+}
+
 .heading {
   text-align: center;
   margin: 0 auto;
@@ -10,20 +14,20 @@
   height: 60px;
   width: 200px;
   border-bottom: 3px solid #ff008c;
-  font-family: "Playfair Display";
+  font-family: "Bad Script";
 }
 
 .content {
   color: white;
   font-size: 25px;
-  font-family: "Playfair Display", serif;
+  font-family: "Bad Script", serif;
   line-height: 45px;
   letter-spacing: 3%;
 }
 
 .e {
   font-size: 7rem;
-  font-family: "WC Mano Negra Bta", sans-serif;
+  font-family: "Shadows Into Light Two", sans-serif;
 }
 
 .parent {
@@ -63,7 +67,7 @@
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.7px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Bad Script", sans-serif;
   }
 
   .parent {
@@ -81,7 +85,7 @@
     font-size: 17px;
     line-height: 25px;
     letter-spacing: 0.7px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Bad Script", sans-serif;
   }
 
 }

@@ -23,7 +23,14 @@ function GalleryCarousel() {
       >
         {src_arr.map((src, index) => (
           <div key={index}>
-            <Image src={src} width="850" height="650" className={styles.img} />
+            <Image
+              src={src}
+              width="850"
+              height="650"
+              alt="img"
+              quality={80}
+              className={styles.img}
+            />
           </div>
         ))}
       </Carousel>

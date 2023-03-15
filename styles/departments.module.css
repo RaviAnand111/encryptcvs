@@ -1,6 +1,6 @@
 
 .container{
-  font-family: "Playfair Display";
+  font-family: "Bad Script";
 }
 
 .department_heading{
@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     width: fit-content;
     border-bottom: 3px solid #FF008C;
-    font-family: "Playfair Display";
+    font-family: "Bad Script";
     margin: 2rem auto;
 }
 
@@ -40,7 +40,7 @@
       font-size: 2em;
       width: fit-content;
       border-bottom: 3px solid #FF008C;
-      font-family: Playfair Display;
+      font-family: Bad Script;
       margin-top: 10px;
       margin-bottom: 50px;
   }

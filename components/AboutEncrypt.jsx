@@ -28,13 +28,13 @@ function AboutEncrypt({ aboutusRef, missionRef }) {
           </p>
         </p>
 
-        <div className={styles.parent}>
+        {/* <div className={styles.parent}>
        <FontAwesomeIcon className={styles.child} icon={faDesktop}></FontAwesomeIcon>
        <FontAwesomeIcon className={styles.child} icon={faLaptopCode}></FontAwesomeIcon>
        <FontAwesomeIcon className={styles.child} icon={faUserSecret}></FontAwesomeIcon>
-     </div>
+     </div> */}
       </div>
-      <div>
+      <div className={styles.mission}>
         <h2 className={styles.heading} ref={missionRef}>
           MISSION
         </h2>
@@ -52,11 +52,20 @@ function AboutEncrypt({ aboutusRef, missionRef }) {
           &quot;WE WANT TO CREATE A HEALTHY AND MOTIVATING TECHVIRONMENT&quot;{" "}
         </p>
 
-        <div className={styles.parent}>
-          <FontAwesomeIcon className={styles.child} icon={faCode}></FontAwesomeIcon>
-          <FontAwesomeIcon className={styles.child} icon={faHeart}></FontAwesomeIcon>
-          <FontAwesomeIcon className={styles.child} icon={faMobile}></FontAwesomeIcon>
-        </div>
+        {/* <div className={styles.parent}>
+          <FontAwesomeIcon
+            className={styles.child}
+            icon={faCode}
+          ></FontAwesomeIcon>
+          <FontAwesomeIcon
+            className={styles.child}
+            icon={faHeart}
+          ></FontAwesomeIcon>
+          <FontAwesomeIcon
+            className={styles.child}
+            icon={faMobile}
+          ></FontAwesomeIcon>
+        </div> */}
       </div>
     </div>
   );

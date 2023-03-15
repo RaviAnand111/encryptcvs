@@ -1,5 +1,6 @@
 .container {
   color: white;
+  margin-top: 10rem;
 }
 
 .all_events {
@@ -19,9 +20,9 @@
   font-size: 50px;
   width: fit-content;
   border-bottom: 3px solid #ff008c;
-  font-family: Playfair Display;
+  font-family: Bad Script;
   margin: 0 auto;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   padding-bottom: 10px;
 }
 
@@ -45,7 +46,7 @@
   font-size: 40px;
   width: fit-content;
   border-bottom: 3px solid #ff008c;
-  font-family: Playfair Display;
+  font-family: Bad Script;
   /* margin-bottom: 5rem; */
   margin: 10rem auto;
 }
@@ -54,7 +55,7 @@
   font-size: 40px;
   width: fit-content;
   border-bottom: 3px solid #ff008c;
-  font-family: Playfair Display;
+  font-family: Bad Script;
   font-style: normal;
   /* margin-bottom: 2.5rem;
   margin-top: 3rem; */
@@ -65,7 +66,7 @@
   font-size: 40px;
   width: fit-content;
   border-bottom: 3px solid #ff008c;
-  font-family: "Playfair Display";
+  font-family: "Bad Script";
   font-style: normal;
   /* margin-bottom: 2.5rem;
   margin-top: 3rem; */
@@ -84,7 +85,7 @@
   /* width: 55%; */
   height: auto;
   font-size: 30px;
-  font-family: Playfair Display;
+  font-family: Bad Script;
   white-space: nowrap;
 }
 .contentchild ul {
@@ -121,7 +122,7 @@
 .muchMore {
   text-align: center;
   font-size: 2rem;
-  font-family: Playfair Display;
+  font-family: Bad Script;
   color: #ff1b98;
 }
 
@@ -164,7 +165,7 @@
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.2px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Bad Script", sans-serif;
   }
 
   .imgchild {
@@ -185,7 +186,7 @@
 
   .contentchild {
     font-size: 17px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Bad Script", sans-serif;
     line-height: 30px;
     letter-spacing: 0.2px;
   }
@@ -194,7 +195,7 @@
     font-size: 30px;
     width: fit-content;
     border-bottom: 3px solid #ff008c;
-    font-family: Playfair Display;
+    font-family: Bad Script;
     margin: 40px auto;
     padding-bottom: 10px;
   }
@@ -203,7 +204,7 @@
     width: 300px;
     text-align: center;
     font-size: 25px;
-    font-family: Playfair Display;
+    font-family: Bad Script;
     color: #ff1b98;
     margin: 50px 0 0 0;
   }
